@@ -19,7 +19,7 @@ const Contact = ({ closeForm }) => {
 
     try {
       const response = await axios.post(
-        "https://wecare-website.onrender.com/",
+        "https://wecare-website.onrender.com/api/users",
         formData
       );
       console.log(response.data);
