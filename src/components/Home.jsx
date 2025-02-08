@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import Button from "../layouts/Button";
 
 const Home = () => {
@@ -9,10 +10,18 @@ const Home = () => {
           Empowering Health Choices for a Vibrant Life Your Trusted..
         </h1>
         <p>
-        At WeCare, we understand the importance of early intervention in shaping healthy futures. We are committed to creating a safe, welcoming space where children can express themselves freely and begin their journey toward mental wellness. Together, we aim to empower children to overcome challenges, build confidence, and lead fulfilling lives.
+          At WeCare, we understand the importance of early intervention in
+          shaping healthy futures. We are committed to creating a safe,
+          welcoming space where children can express themselves freely and begin
+          their journey toward mental wellness. Together, we aim to empower
+          children to overcome challenges, build confidence, and lead fulfilling
+          lives.
         </p>
 
-        <Button title="See Services" />
+        {/*  triggering to Services section added */}
+        <Link to="services" spy={true} smooth={true} duration={500}>
+          <Button title="See Services" />
+        </Link>
       </div>
     </div>
   );

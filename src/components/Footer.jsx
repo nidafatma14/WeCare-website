@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
+import { FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa"; // Import icons
 
 const Footer = () => {
   return (
@@ -9,8 +10,8 @@ const Footer = () => {
           <h1 className=" font-semibold text-xl pb-4">WeCare</h1>
           <p className=" text-sm">
             Our team of dedicated doctors, each specializing in unique fields
-            such as Psychiatrist, Neurologist, pediatrician, Psychoanalyst,
-            and more.
+            such as Psychiatrist, Neurologist, Pediatrician, Psychoanalyst, and
+            more.
           </p>
         </div>
         <div>
@@ -80,22 +81,42 @@ const Footer = () => {
         <div className=" w-full md:w-1/4">
           <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0">Contact Us</h1>
           <nav className=" flex flex-col gap-2">
-            <Link to="/" spy={true} smooth={true} duration={500}>
-              123 Park Street, Springdale, United States.
-            </Link>
-            <Link to="/" spy={true} smooth={true} duration={500}>
-              support@care.com
-            </Link>
-            <Link to="/" spy={true} smooth={true} duration={500}>
-              +123-456-7890
-            </Link>
+            <p>123 Park Street, Springdale, US.</p>
+            <p>support@care.com</p>
+            <p>+123-456-7890</p>
           </nav>
+          {/* Social Media Links */}
+          <div className="flex gap-4 mt-4">
+            <a
+              href="https://www.linkedin.com/in/your-linkedin-profile"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:text-hoverColor transition-all"
+            >
+              <FaLinkedin size={24} />
+            </a>
+            <a
+              href="https://twitter.com/your-twitter-profile"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:text-hoverColor transition-all"
+            >
+              <FaTwitter size={24} />
+            </a>
+            <a
+              href="https://www.instagram.com/your-instagram-profile"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:text-hoverColor transition-all"
+            >
+              <FaInstagram size={24} />
+            </a>
+          </div>
         </div>
       </div>
       <div>
         <p className=" text-center py-4">
-          Copyright © 2024 WeCare 
-          <span className=" text-hoverColor"> </span> | All rights reserved
+          Copyright © 2024 WeCare | All rights reserved
         </p>
       </div>
     </div>
