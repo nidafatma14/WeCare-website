@@ -7,13 +7,22 @@ import cors from "cors";
 dotenv.config();
 
 const app = express();
+const allowedOrigins = ["http://localhost:5173", "https://wecare-website-1.onrender.com"];
+
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://wecare-website-1.onrender.com"], // Allow multiple origins
+    origin: (origin, callback) => {
+      if (!origin || allowedOrigins.includes(origin)) {
+        callback(null, true); // Allow requests if the origin is in the list
+      } else {
+        callback(new Error("Not allowed by CORS"));
+      }
+    },
     methods: "GET,POST,PUT,DELETE",
     credentials: true,
   })
 );
+
 //  Middleware to parse JSON
 app.use(express.json());
 
