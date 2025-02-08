@@ -9,7 +9,7 @@ dotenv.config();
 const app = express();
 app.use(
   cors({
-    origin: "http://localhost:5173", // Allow frontend access
+    origin: ["http://localhost:5173", "https://wecare-website-1.onrender.com"], // Allow multiple origins
     methods: "GET,POST,PUT,DELETE",
     credentials: true,
   })
