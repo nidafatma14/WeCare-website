@@ -9,7 +9,7 @@ const Doctors = () => {
   const data = [
     {
       id: 1,
-      img: "/src/assets/img/doc1.jpeg",
+      img: "/img/doc1.jpeg",
       name: "Dr. Ryan Decuza",
       specialties: "Counselor",
       qualification: "PhD in Clinical Psychology",
@@ -19,7 +19,7 @@ const Doctors = () => {
     },
     {
       id: 2,
-      img: "/src/assets/img/doc2.jpeg",
+      img: "/img/doc2.jpeg",
       name: "Dr. Abhishek Mehra",
       specialties: "Psychiatrist",
       qualification: "MD in Psychiatry",
@@ -29,7 +29,7 @@ const Doctors = () => {
     },
     {
       id: 3,
-      img: "/src/assets/img/doc3.jpeg",
+      img: "/img/doc3.jpeg",
       name: "Dr. Casber Rodriguez",
       specialties: "Pediatrician",
       qualification: "MBBS, MD (Pediatrics)",
@@ -39,7 +39,7 @@ const Doctors = () => {
     },
     {
       id: 4,
-      img: "/src/assets/img/doc4.jpeg",
+      img: "/img/doc4.jpeg",
       name: "Dr. Victor Nguyen",
       specialties: "Neurologist",
       qualification: "DM in Neurology",
@@ -49,7 +49,7 @@ const Doctors = () => {
     },
     {
       id: 5,
-      img: "/src/assets/img/doc5.jpeg",
+      img: "/img/doc5.jpeg",
       name: "Dr. Julie Carter",
       specialties: "Psychiatrist",
       qualification: "MD in Psychiatry",
