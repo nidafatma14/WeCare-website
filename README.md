@@ -27,23 +27,20 @@ WeCare is a mental health tracking platform that enables continuous monitoring, 
 ## Setup Instructions
 
 ### Frontend
-1. Navigate to the `client` folder:
-   ```sh
-   cd client
-   ```
-2. Install dependencies:
+
+1. Install dependencies:
    ```sh
    npm install
    ```
-3. Start the development server:
+2. Start the development server:
    ```sh
    npm run dev
    ```
 
 ### Backend
-1. Navigate to the `server` folder:
+1. Navigate to the `back` folder:
    ```sh
-   cd server
+   cd back
    ```
 2. Install dependencies:
    ```sh
@@ -51,7 +48,7 @@ WeCare is a mental health tracking platform that enables continuous monitoring, 
    ```
 3. Start the backend server:
    ```sh
-   npm run start
+   node server.js
    ```
 
 ## Screenshots
