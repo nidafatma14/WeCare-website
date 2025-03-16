@@ -2,6 +2,11 @@
 
 WeCare is a mental health tracking platform that enables continuous monitoring, identifies potential issues, and offers personalized recommendations for improvement. It is to support users with mental health guidance.
 
+## Website Link 
+
+Live : https://wecare-website-1.onrender.com/
+
+
 ## Tech Stack
 
 ### Frontend:
@@ -61,9 +66,6 @@ WeCare is a mental health tracking platform that enables continuous monitoring, 
 ![Screenshot 4](.![Screenshot (631)](https://github.com/user-attachments/assets/10ea1b33-428a-466a-b75c-8fe6aac00cd5)
 )
 
-## Website Link 
-
-Live : https://wecare-website-1.onrender.com/
 
 
 ## Contribution
