@@ -58,14 +58,9 @@ Live : https://wecare-website-1.onrender.com/
 
 ## Screenshots
 ![Screenshot 1](![Screenshot (627)](https://github.com/user-attachments/assets/f2a2ebcd-a730-4dc8-932e-096185b8f3f3)
-)
 ![Screenshot 2](![Screenshot (628)](https://github.com/user-attachments/assets/1f64457e-9045-4319-94f1-bae17dab97d0)
-)
 ![Screenshot 3]((![Screenshot (670)](https://github.com/user-attachments/assets/77a1e019-7cf7-48e1-a697-f566727a495c)
-)
-)
 ![Screenshot 4](![Screenshot (630)](https://github.com/user-attachments/assets/bb9d2ecb-1228-418e-bc0a-500ef4e9853a)
-)
 ![Screenshot 5](![Screenshot (631)](https://github.com/user-attachments/assets/10ea1b33-428a-466a-b75c-8fe6aac00cd5)
 )
 
