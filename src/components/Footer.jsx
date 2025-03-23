@@ -116,7 +116,7 @@ const Footer = () => {
       </div>
       <div>
         <p className=" text-center py-4">
-          Copyright © 2024 WeCare | All rights reserved
+          Copyright © 2025 WeCare | All rights reserved
         </p>
       </div>
     </div>
