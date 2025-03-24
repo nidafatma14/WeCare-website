@@ -55,7 +55,7 @@ router.post("/register", async (req, res) => {
 <p><strong>Appointment Details:</strong></p>
 <ul>
   <li><strong>Service:</strong> Mental Health Consultation</li>
-  <li><strong>Date:</strong> February 10, 2025</li>
+  <li><strong>Date:</strong> April 03, 2025</li>
   <li><strong>Time:</strong> 3:00 PM - 4:00 PM</li>
   <li><strong>Location:</strong> Online (Google Meet)</li>
 </ul>
