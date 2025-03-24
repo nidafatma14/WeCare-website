@@ -28,6 +28,7 @@ Live : https://wecare-website-1.onrender.com/
 - Emergency contact support
 - Responsive UI
 - Scalable backend architecture
+- Ask MedAI for queries (AI-powered assistance for mental health-related questions)
 
 ## Setup Instructions
 
@@ -57,11 +58,17 @@ Live : https://wecare-website-1.onrender.com/
    ```
 
 ## Screenshots
-![Screenshot 1](https://github.com/user-attachments/assets/f2a2ebcd-a730-4dc8-932e-096185b8f3f3)
-![Screenshot 2](https://github.com/user-attachments/assets/1f64457e-9045-4319-94f1-bae17dab97d0)
-![Screenshot 3](https://github.com/user-attachments/assets/77a1e019-7cf7-48e1-a697-f566727a495c)
+![Screenshot 1](https://github.com/user-attachments/assets/d5b34703-8b6c-4702-91b5-821f9e3b040c)
+
+![Screenshot 2](https://github.com/user-attachments/assets/9598ba01-213b-4d1b-8074-f3a2ddd024ab)
+![Screenshot 5](https://github.com/user-attachments/assets/b681d425-f7c3-463e-8f42-f6bdd1d3e88b)
+
+
+![Screenshot 3](https://github.com/user-attachments/assets/65a7ff97-c679-477e-b71f-26ea26decf91)
 ![Screenshot 4](https://github.com/user-attachments/assets/bb9d2ecb-1228-418e-bc0a-500ef4e9853a)
-![Screenshot 5](https://github.com/user-attachments/assets/10ea1b33-428a-466a-b75c-8fe6aac00cd5)
+![Screenshot 4](https://github.com/user-attachments/assets/ba2dfb0e-9388-48c9-9590-7eba40004a8e)
+
+
 
 
 
