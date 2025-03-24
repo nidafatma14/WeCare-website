@@ -168,22 +168,23 @@ const Navbar = () => {
             Blog
           </Link>
           <Link
-            to="blogs"
-            spy={true}
-            smooth={true}
-            duration={500}
-            className=" hover:text-hoverColor transition-all cursor-pointer"
-            onClick={closeMenu}
-          >
-            Ask MedAI
-          </Link>
+           to="blogs"
+             spy={true}
+           smooth={true}
+         duration={500}
+        className="hover:text-hoverColor transition-all cursor-pointer"
+       onClick={() => window.location.href = "https://wecare-ai.vercel.app/"}
+        >
+        Ask MedAI
+       </Link>
+
 
           <div className=" lg:hidden">
             <button
               className="bg-brightColor text-white px-4 py-2 rounded-md hover:bg-hoverColor transition duration-300 ease-in-out"
               onClick={openForm}
             >
-              Contact Us
+              Book Appointment
             </button>
           </div>
         </div>
