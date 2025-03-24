@@ -83,6 +83,14 @@ const Navbar = () => {
             >
               Blog
             </Link>
+            <a
+              href="https://wecare-ai.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-hoverColor transition-all cursor-pointer"
+            >
+              Ask MedAI
+            </a>
           </nav>
 
           <div className=" hidden lg:flex">
@@ -158,6 +166,16 @@ const Navbar = () => {
             onClick={closeMenu}
           >
             Blog
+          </Link>
+          <Link
+            to="blogs"
+            spy={true}
+            smooth={true}
+            duration={500}
+            className=" hover:text-hoverColor transition-all cursor-pointer"
+            onClick={closeMenu}
+          >
+            Ask MedAI
           </Link>
 
           <div className=" lg:hidden">
